@@ -92,6 +92,10 @@
   .note{margin-top:8px; font-size:.82rem; color:var(--muted); text-align:center}
   .back{margin-top:14px}
   .back a{color:var(--accent2); font-weight:800; text-decoration:none}
+  /* --- mobile/tablet responsiveness guard --- */
+  html,body{overflow-x:hidden}
+  body>*{max-width:100%}
+  @media (max-width:600px){ .sub,.help{font-size:.84rem} }
 </style>
 </head>
 <body>
